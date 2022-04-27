@@ -1,7 +1,6 @@
 import os, pyDOE, pickle, sys, xmltodict
 import covid_lib as cv
 import numpy as np
-from scipy.stats.distributions import uniform
 
 ##### previously used keys/configs
 # template_config = os.path.abspath("scripts/viral_replication/viral_sanity_check/Viral_replication_no_virion_uptake_no_apop.xml")
