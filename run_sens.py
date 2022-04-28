@@ -78,7 +78,7 @@ if __name__ == "__main__":
         # important values for the run
         ndim = len(keys)
         nsamples = 2000
-        nsims = 5
+        nsims = 300
         scl = 1
         lhs_samples = pyDOE.lhs(ndim, samples=nsamples)
         # get initial values
@@ -115,7 +115,7 @@ if __name__ == "__main__":
         isamp = 0
         sens_run["nsims"] = nsims
         sens_run["all_samples"] = lhs_samples
-
+        
     # done initializing run, now start 
     while ctr < nsims:
         samp = lhs_samples[isamp]
