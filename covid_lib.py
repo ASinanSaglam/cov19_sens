@@ -1,8 +1,6 @@
 import tempfile, subprocess, xmltodict, glob
-import shutil, sys, os, pickle
-# sys.path.append('../../../')
+import shutil, os, pickle
 from pyMCDS import pyMCDS
-from scipy.stats import sem
 import numpy as np
 
 def make_change(xdict, cpath, change_to):
